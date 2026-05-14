@@ -22,4 +22,4 @@ jobs:
       - name: Run Python Program
         run: |
           cd src
-          python addition.py
+          pytest addition.py
